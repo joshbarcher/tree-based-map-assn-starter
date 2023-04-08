@@ -2,6 +2,16 @@ package trees;
 
 import java.util.List;
 
+/**
+ * Represents the methods of a tree structure. For this
+ * assignment the tree is expected to be programmed
+ * iteratively.
+ *
+ * @param <T> the type of elements in the tree
+ *
+ * @author Josh Archer
+ * @version 1.0
+ */
 public interface ITree<T extends Comparable<T>>
 {
     /**
